@@ -8,6 +8,7 @@ public class BranchAnimalPicker {
         String animalChoice = "";
         System.out.println("What animal would you like to see?");
         System.out.println("Dog or Cat?");
+        animalChoice = scan.nextLine();
         
     }
 }
