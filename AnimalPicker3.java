@@ -12,5 +12,13 @@ public class AnimalPicker3 {
             System.out.println("What animal would you like to see?");
             System.out.println("Dog, Cat, or Fish?");
         }
+        if (animalChoice.toUpperCase().equals("dog")){
+            System.out.println("          __\n \\ ______/ V`-,\n  }        /~~\n /_)^ --,r\'\n|b      |b");
+
+        }else if(animalChoice.toUpperCase().equals("cat")){
+            System.out.println(" _._     _,-\'\"\"`-._\n(,-.`._,\'(       |\\`-/|\n    `-.-\' \\ )-`( , o o)\n          `-    \\`_`\"\'-");
+        }else if(animalChoice.toUpperCase().equals("fish")){
+            System.out.println("    /`·.¸\n     /¸...¸`:·\n ¸.·´  ¸   `·.¸.·´)\n: © ):´;      ¸  {\n `·.¸ `·  ¸.·´\\`·¸)\n     `\\\\´´\\¸.·´");
+        }
     }
 }
