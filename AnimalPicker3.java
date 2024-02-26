@@ -8,5 +8,9 @@ public class AnimalPicker3 {
         String animalChoice = "";
         System.out.println("What animal would you like to see?");
         System.out.println("Dog, Cat or Fish?");
+        while(!animalChoice.toUpperCase().equals("dog")|| !animalChoice.toUpperCase().equals("cat")||!animalChoice.toUpperCase().equals("fish")){
+            System.out.println("What animal would you like to see?");
+            System.out.println("Dog, Cat, or Fish?");
+        }
     }
 }
